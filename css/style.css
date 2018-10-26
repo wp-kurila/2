@@ -11,137 +11,197 @@ body {
 
     .main .header {
         background-image: url(../img/header.png);
-        min-height: 1024px;        
-    }
-
-    .main .header .header-top {
+        min-height: 1024px;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
-        margin-bottom: 285px;
-        padding-top: 40px;
     }
 
-        .main .header .header-top > a {
-            margin-left: 376px;
-        }
-
-        .main .header .header-top ul {
-            padding: 0;
-            margin: 0;
+        .main .header .header-top {
             display: flex;
-            align-items: center;
+            justify-content: space-between;
+            padding-top: 40px;
         }
 
-        .main .header .header-top ul li {
-            list-style-type: none; 
-            font-family: Montserrat;
-            color: #ffffff;
-            font-size: 14px;
-            font-weight: 300;
-            margin-right: 30px;  
-            cursor: pointer;         
-        }
-
-        .main .header .header-top ul li:last-child {
-            margin-right: 0;
-        }
-
-        .main .header .header-top ul li:hover {
-            color: #c7b29a;
-        }
-
-        .main .header .header-top div {
-            margin-right: 374px;
-            display: flex;
-            align-items: center;
-            max-width: 70px;            
-        }
-
-        .main .header .header-top div > a {
-            margin-right: 28px;
-        }
-
-    .main .header .header-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    } 
-
-    .main .header .header-content > a {
-        margin: 0 150px;
-    }  
-    
-    .main .header .header-content div {
-
-    }
-
-        .main .header .header-content div p {
-            margin: 0;
-            text-align: center;
-        }
-
-        .main .header .header-content div .header-content-top {
-            font-family: Raleway;
-            color: #ffffff;
-            font-size: 36px;
-            font-weight: 500; 
-            margin-bottom: 14px;           
-        }
-
-        .main .header .header-content div .header-content-middle {
-            font-family: Raleway;
-            color: #ffffff;
-            font-size: 52px;
-            font-weight: 700;
-            margin-bottom: 19px;
-        }
-
-        .main .header .header-content div .header-content-bottom {
-            font-family: Montserrat;
-            color: #ffffff;
-            font-size: 16px;
-            font-weight: 300;
-            line-height: 24px;
-            margin-bottom: 52px;
-            max-width: 585px;
-        }
-
-        .main .header .header-content div > a {
-            display: block;
-            text-align: center;
-            text-decoration: none;
-        }
-
-            .main .header .header-content div > a span {
-                font-family: Raleway;
-                color: #ffffff;
-                font-size: 14px;
-                font-weight: 700;
-                line-height: 23px;
-                text-align: center;
-                padding: 21px 39px 21px 37px;
-                background-color: #998675;
-                border-radius: 3px;
+            .main .header .header-top > a {
+                margin-left: 376px;
             }
 
+            .main .header .header-top ul {
+                padding: 0;
+                margin: 0;
+                display: flex;
+                align-items: center;
+            }
 
+                .main .header .header-top ul li {
+                    list-style-type: none;
+                    font-family: Montserrat;
+                    color: #ffffff;
+                    font-size: 14px;
+                    font-weight: 300;
+                    margin-right: 30px;
+                    cursor: pointer;
+                }
 
+                    .main .header .header-top ul li:last-child {
+                        margin-right: 0;
+                    }
 
+                    .main .header .header-top ul li:hover {
+                        color: #c7b29a;
+                    }
 
+            .main .header .header-top div {
+                margin-right: 374px;
+                display: flex;
+                align-items: center;
+                max-width: 70px;
+            }
 
-    
+                .main .header .header-top div > a {
+                    margin-right: 28px;
+                }
+
+        .main .header .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            .main .header .header-content > a {
+                margin: 0 150px;
+            }
+
+            .main .header .header-content div {
+
+            }
+
+                .main .header .header-content div p {
+                    margin: 0;
+                    text-align: center;
+                }
+
+                .main .header .header-content div .header-content-top {
+                    font-family: Raleway;
+                    color: #ffffff;
+                    font-size: 36px;
+                    font-weight: 500;
+                    margin-bottom: 14px;
+                }
+
+                .main .header .header-content div .header-content-middle {
+                    font-family: Raleway;
+                    color: #ffffff;
+                    font-size: 52px;
+                    font-weight: 700;
+                    margin-bottom: 19px;
+                }
+
+                .main .header .header-content div .header-content-bottom {
+                    font-family: Montserrat;
+                    color: #ffffff;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 24px;
+                    margin-bottom: 52px;
+                    max-width: 585px;
+                }
+
+                .main .header .header-content div > a {
+                    display: block;
+                    text-align: center;
+                    text-decoration: none;
+                }
+
+                    .main .header .header-content div> a span {
+                        font-family: Raleway;
+                        color: #ffffff;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 23px;
+                        text-align: center;
+                        padding: 21px 39px 21px 37px;
+                        background-color: #998675;
+                        border-radius: 3px;
+                        display: inline-block;
+                        text-transform: uppercase;
+                    }
+
+        .main .header .header-footer {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
 
 
 
     .main .customization {
         background-color: #ffffff;
-        min-height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;        
+        padding: 63px 376px 63px 378px;
     }
 
-    .main .realization{
-        min-height: 700px;
-        background-color: #fbfaf8;
-    }
+        .main .customization > div {
+            margin-right: 33px;
+        }
+
+            .main .customization > div:last-child {
+                margin: 0;                
+            }
+
+            .main .customization > div > img {
+                display: block;
+                padding-bottom: 29px;
+                margin: auto;
+            }
+
+            .main .customization > div > span {
+                font-family: Raleway;
+                color: #555555;
+                font-size: 22px;
+                font-weight: 600;
+                text-align: center;
+                display: block;
+                margin-bottom: 19px;
+            }
+
+            .main .customization > div:nth-child(2) > span {
+                color: #c7b299;
+            }
+
+            .main .customization > div > p {
+                font-family: Montserrat;
+                color: #8c8c8c;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 24px;
+                text-align: center;
+                margin: 0;
+                padding-bottom: 30px;
+            }
+
+            .main .customization > div .customization-span-line {
+                max-width: 70px;
+                height: 3px;
+                background-color: #f1eee9;
+                display: block;
+                margin: auto;
+            }
+
+            .main .customization > div:nth-child(2) .customization-span-line {
+                background-color: #c7b299;
+            }
+
+
+
+
+.main .realization {
+    min-height: 700px;
+    background-color: #fbfaf8;
+}
 
     .main .multipurpose {
         min-height: 150px;
@@ -150,59 +210,97 @@ body {
         background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
         background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
         background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 374px 0 376px;
     }
 
-    .main .latest {
-        min-height: 800px;
-        background-color: #ffffff;
-    }
+        .main .multipurpose > div {
+            
+        }
 
-    .main .video {
-        background-image: url(../img/video.png);
-        min-height: 705px;
-    }
+            .main .multipurpose > div > span {
+                font-family: Raleway;
+                color: #ffffff;
+                font-size: 28px;
+                font-weight: 400;
+                display: block;
+                margin-bottom: 8px;
+            }
 
-    .main .mobile {
-        min-height: 695px;
-        background-color: #fbfaf8;
-    }
+                .main .multipurpose > div > span > span {
+                    font-family: Raleway;
+                    color: #c7b299;
+                    font-size: 28px;
+                    font-weight: 400;
+                }
 
-    .main .numbers {
-        min-height: 300px;
-        background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
-        background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
-        background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
-        background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
-        background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
-    }
+            .main .multipurpose > div > p {
+                margin: 0;
+                font-family: Montserrat;
+                color: #615855;
+                font-size: 18px;
+                font-weight: 300;                
+            }
 
-    .main .recent {
-        min-height: 600px;
-        background-color: #ffffff;
-    }
-
-    .main .emblems {
-        background-image: url(../img/emblems.png);
-        min-height: 489px
-    }
-
-    .main .footer {
-        min-height: 508px;
-        background-color: #191919;
-    }
-
-    .main .footer-bottom {
-        min-height: 111px;
-        background-color: #111111;
-    }
+        .main .multipurpose > a {
+            font-family: Raleway;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 23px;
+            border-radius: 3px;
+            background-color: #998675;
+            text-decoration: none;
+            padding: 19px 29px 20px 28px;
+            text-transform: uppercase;
+        }
 
 
 
 
 
+.main .latest {
+    min-height: 800px;
+    background-color: #ffffff;
+}
 
+.main .video {
+    background-image: url(../img/video.png);
+    min-height: 705px;
+}
 
+.main .mobile {
+    min-height: 695px;
+    background-color: #fbfaf8;
+}
 
+.main .numbers {
+    min-height: 300px;
+    background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+    background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+}
 
+.main .recent {
+    min-height: 600px;
+    background-color: #ffffff;
+}
 
+.main .emblems {
+    background-image: url(../img/emblems.png);
+    min-height: 489px
+}
 
+.main .footer {
+    min-height: 508px;
+    background-color: #191919;
+}
+
+.main .footer-bottom {
+    min-height: 111px;
+    background-color: #111111;
+}
