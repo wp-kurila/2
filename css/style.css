@@ -114,7 +114,7 @@ body {
                     text-decoration: none;
                 }
 
-                    .main .header .header-content div> a span {
+                    .main .header .header-content div > a span {
                         font-family: Raleway;
                         color: #ffffff;
                         font-size: 14px;
@@ -152,10 +152,11 @@ body {
                 margin: 0;                
             }
 
-            .main .customization > div > img {
+            .main .customization > div .customization-icon {
                 display: block;
                 padding-bottom: 29px;
                 margin: auto;
+                fill: #555555;
             }
 
             .main .customization > div > span {
@@ -166,10 +167,6 @@ body {
                 text-align: center;
                 display: block;
                 margin-bottom: 19px;
-            }
-
-            .main .customization > div:nth-child(2) > span {
-                color: #c7b299;
             }
 
             .main .customization > div > p {
@@ -183,7 +180,7 @@ body {
                 padding-bottom: 30px;
             }
 
-            .main .customization > div .customization-span-line {
+            .main .customization > div .customization-line {
                 max-width: 70px;
                 height: 3px;
                 background-color: #f1eee9;
@@ -191,71 +188,107 @@ body {
                 margin: auto;
             }
 
-            .main .customization > div:nth-child(2) .customization-span-line {
+            .main .customization > div:hover .customization-icon {
+                fill: #c7b299;                
+            }
+
+            .main .customization > div:hover > span {
+                color: #c7b299;
+            }
+
+            .main .customization > div:hover .customization-line {
                 background-color: #c7b299;
             }
 
 
-
-
-.main .realization {
-    min-height: 700px;
-    background-color: #fbfaf8;
-}
-
-    .main .multipurpose {
-        min-height: 150px;
-        background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
-        background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
-        background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
-        background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
-        background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 374px 0 376px;
+    .main .realization {
+        background-color: #fbfaf8;
+        padding-top: 83px;
     }
 
-        .main .multipurpose > div {
-            
+        .main .realization > span {
+            font-family: Raleway;
+            color: #555555;
+            font-size: 30px;
+            font-weight: 600;
+            display: block;
+            text-align: center;
+            margin-bottom: 24px;
         }
 
-            .main .multipurpose > div > span {
-                font-family: Raleway;
-                color: #ffffff;
-                font-size: 28px;
-                font-weight: 400;
-                display: block;
-                margin-bottom: 8px;
+        .main .realization > p {
+            font-family: Montserrat;
+            color: #8c8c8c;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 28px;
+            text-align: center;
+            max-width: 757px;
+            margin: 0 auto 40px auto;
+        }
+
+        .main .realization > div {
+            margin: auto;
+            max-width: 1230px;
+            height: 482px;
+            background: url(../img/browser-center.png) 50% 50% no-repeat,
+                        url(../img/browser-left.png) 0% 100% no-repeat,
+                        url(../img/browser-right.png) 100% 100% no-repeat;
+        }
+
+        .main .multipurpose {
+            min-height: 150px;
+            background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+            background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+            background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+            background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
+            background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 374px 0 376px;
+        }
+
+            .main .multipurpose > div {
+                
             }
 
-                .main .multipurpose > div > span > span {
+                .main .multipurpose > div > span {
                     font-family: Raleway;
-                    color: #c7b299;
+                    color: #ffffff;
                     font-size: 28px;
                     font-weight: 400;
+                    display: block;
+                    margin-bottom: 8px;
                 }
 
-            .main .multipurpose > div > p {
-                margin: 0;
-                font-family: Montserrat;
-                color: #615855;
-                font-size: 18px;
-                font-weight: 300;                
-            }
+                    .main .multipurpose > div > span > span {
+                        font-family: Raleway;
+                        color: #c7b299;
+                        font-size: 28px;
+                        font-weight: 400;
+                    }
 
-        .main .multipurpose > a {
-            font-family: Raleway;
-            color: #ffffff;
-            font-size: 14px;
-            font-weight: 700;
-            line-height: 23px;
-            border-radius: 3px;
-            background-color: #998675;
-            text-decoration: none;
-            padding: 19px 29px 20px 28px;
-            text-transform: uppercase;
-        }
+                .main .multipurpose > div > p {
+                    margin: 0;
+                    font-family: Montserrat;
+                    color: #615855;
+                    font-size: 18px;
+                    font-weight: 300;                
+                }
+
+            .main .multipurpose > a {
+                font-family: Raleway;
+                color: #ffffff;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 23px;
+                border-radius: 3px;
+                background-color: #998675;
+                text-decoration: none;
+                padding: 19px 29px 20px 28px;
+                text-transform: uppercase;
+            }
 
 
 
@@ -264,17 +297,219 @@ body {
 .main .latest {
     min-height: 800px;
     background-color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
-.main .video {
-    background-image: url(../img/video.png);
-    min-height: 705px;
-}
+    .main .latest .latest-header {
+        display: block;
+        text-align: center;
+        font-family: Raleway;
+        color: #555555;
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
 
-.main .mobile {
-    min-height: 695px;
-    background-color: #fbfaf8;
-}
+    .main .latest > p {
+        max-width: 757px;
+        text-align: center;
+        font-family: Montserrat;
+        color: #8c8c8c;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+        margin: 0px auto 40px auto;
+    }
+
+    .main .latest > div {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 657 40 658;
+    }
+
+        .main .latest > div > span {
+            font-family: Montserrat;
+            color: #8c8c8c;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 21px;
+            padding: 10px 19px 8px 18px;
+            border: 1px solid #ebebeb;
+            border-radius: 3px;
+            background-color: rgba(17, 17, 17, 0);
+        }
+
+            .main .latest > div > span:active {
+                color: #ffffff;
+                background-color: #998675;
+            }
+
+        .main .latest .latest-content{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 374px 40px 376px;
+        }
+
+        .main .latest .latest-content .latest-content-card {
+            margin-bottom: 30px;
+        }
+
+        .main .latest .latest-content .latest-content-card:nth-child(4) {
+            margin-bottom: 0;
+        }
+
+        .main .latest .latest-content .latest-content-card:nth-child(5) {
+            margin-bottom: 0;
+        }
+
+        .main .latest .latest-content .latest-content-card:nth-last-child() {
+            margin-bottom: 0;
+        }
+
+            .main .latest .latest-content .latest-content-card > img {
+
+            }
+
+            .main .latest .latest-content .latest-content-card > div {
+                background-color: fbfaf8;
+                padding-top: 30px;
+            }
+
+            .main .latest .latest-content .latest-content-card > div .latest-content-card-name {
+                font-family: Raleway;
+                color: #c7b29a;
+                font-size: 20px;
+                font-weight: 500;
+                padding-left: 28px;
+                display: block;
+            }
+
+            .main .latest .latest-content .latest-content-card > div .latest-content-card-description {
+                font-family: Montserrat;
+                color: #d1d1d1;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 28px;
+                padding-left: 28px;
+                display: block;
+                padding-bottom: 27px;
+            }
+
+        .main .latest .latest-buttom {
+            display: block;
+            margin: 0 auto;
+            max-width: 170px;
+            text-align: center;            
+            text-transform: uppercase;
+            font-family: Raleway;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 23px;
+            background-color: #998675;
+            border-radius: 3px;
+            padding: 20px 0;
+            cursor: pointer;
+        }
+
+
+    .main .video {
+        background-image: url(../img/video.png);
+        padding-top: 220px;
+    }
+
+        .main .video > img {
+            display: block;
+            margin: 0 auto 40px auto;
+        }
+
+        .main .video > span {
+            font-family: Raleway;
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: 500;
+            display: block;
+            text-align: center;
+            margin-bottom: 29px;
+        }
+
+        .main .video > p {
+            font-family: Montserrat;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 300;
+            text-align: center;
+            margin: 0 auto 40px auto;
+            max-width: 560px;
+        }
+
+        .main .video > time {
+            font-family: Montserrat;
+            color: #c7b299;
+            font-size: 14px;
+            font-weight: 400;
+            display: block;
+            text-align: center;
+            padding-bottom: 185px;
+        }
+
+
+
+    .main .mobile {
+        min-height: 695px;
+        background-color: #fbfaf8;
+        display: flex;
+        justify-content: space-between;
+        padding: 79px 388px 0 423px;
+    }
+
+        .main .mobile > img {
+            margin-right: 29px;
+        }
+
+        .main .mobile > div {
+            margin-top: 116px;
+        }
+
+        .main .mobile > div > span {
+            font-family: Raleway;
+            color: #555555;
+            font-size: 30px;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 40px;
+        }
+
+        .main .mobile > div > p {
+            font-family: Montserrat;
+            color: #8c8c8c;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 28px;
+            margin: 0 0 45px 0;
+        }
+
+        .main .mobile > div > ul {
+            margin: 0;
+            font-family: Montserrat;
+            color: #8c8c8c;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 32px;
+            list-style-type: none;
+            margin-left: 50px;
+            padding: 0;
+        }
+
+        .main .mobile > div > ul > li:before {
+            content: " ";
+            background: url("../img/mobile-ul.png");
+            width: 21px;
+            height: 21px;
+            display: inline-block;
+            margin-right: 29px;
+        }
 
 .main .numbers {
     min-height: 300px;
