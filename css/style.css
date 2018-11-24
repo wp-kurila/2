@@ -134,8 +134,6 @@ body {
         }
 
 
-
-
     .main .customization {
         background-color: #ffffff;
         display: flex;
@@ -291,9 +289,6 @@ body {
             }
 
 
-
-
-
 .main .latest {
     min-height: 800px;
     background-color: #ffffff;
@@ -368,15 +363,141 @@ body {
         }
 
             .main .latest .latest-content .latest-content-card > img {
-
+                
             }
 
-            .main .latest .latest-content .latest-content-card > div {
+            .main .latest .latest-content .latest-content-card .latest-content-card-add_img1 {
+                justify-content: center;
+                position: absolute;
+                top: 2636px;
+                left: 640px;
+                display: none;
+            }
+
+            .main .latest .latest-content .latest-content-card .latest-content-card-add_img2 {
+                justify-content: center;
+                position: absolute;
+                top: 2636px;
+                left: 1040px;
+                display: none;
+            }
+
+            .main .latest .latest-content .latest-content-card .latest-content-card-add_img3 {                
+                justify-content: center;
+                position: absolute;
+                top: 2636px;
+                left: 1440px;
+                display: none;
+            }
+
+            .main .latest .latest-content .latest-content-card .latest-content-card-add_img4 {                
+                justify-content: center;
+                position: absolute;
+                top: 3003px;
+                left: 640px;
+                display: none;
+            }
+
+            .main .latest .latest-content .latest-content-card .latest-content-card-add_img5 {                
+                justify-content: center;
+                position: absolute;
+                top: 3003px;
+                left: 1040px;
+                display: none;
+            }
+
+            .main .latest .latest-content .latest-content-card .latest-content-card-add_img6 {                
+                justify-content: center;
+                position: absolute;
+                top: 3003px;
+                left: 1440px;
+                display: none;
+            }
+
+                .main .latest .latest-content .latest-content-card:hover .latest-content-card-add_img1 {
+                    display: flex;
+                }
+
+                .main .latest .latest-content .latest-content-card:hover .latest-content-card-add_img2 {
+                    display: flex;
+                }
+
+                .main .latest .latest-content .latest-content-card:hover .latest-content-card-add_img3 {
+                    display: flex;
+                }
+
+                .main .latest .latest-content .latest-content-card:hover .latest-content-card-add_img4 {
+                    display: flex;
+                }
+
+                .main .latest .latest-content .latest-content-card:hover .latest-content-card-add_img5 {
+                    display: flex;
+                }
+
+                .main .latest .latest-content .latest-content-card:hover .latest-content-card-add_img6 {
+                    display: flex;
+                }
+
+                .main .latest .latest-content .latest-content-card .latest-content-card-add_img1 > svg {
+                    margin-right: 28px;
+                    fill: #ffffff;
+                }
+
+                .main .latest .latest-content .latest-content-card .latest-content-card-add_img2 > svg {
+                    margin-right: 28px;
+                    fill: #ffffff;
+                }
+
+                .main .latest .latest-content .latest-content-card .latest-content-card-add_img3 > svg {
+                    margin-right: 28px;
+                    fill: #ffffff;
+                }
+
+                .main .latest .latest-content .latest-content-card .latest-content-card-add_img4 > svg {
+                    margin-right: 28px;
+                    fill: #ffffff;
+                }
+
+                .main .latest .latest-content .latest-content-card .latest-content-card-add_img5 > svg {
+                    margin-right: 28px;
+                    fill: #ffffff;
+                }
+
+                .main .latest .latest-content .latest-content-card .latest-content-card-add_img6 > svg {
+                    margin-right: 28px;
+                    fill: #ffffff;
+                }
+
+                .main .latest .latest-content .latest-content-card .latest-content-card-add_img1 > svg:hover {
+                    fill: #c7b299;
+                }
+
+                .main .latest .latest-content .latest-content-card .latest-content-card-add_img2 > svg:hover {
+                    fill: #c7b299;
+                }
+
+                .main .latest .latest-content .latest-content-card .latest-content-card-add_img3 > svg:hover {
+                    fill: #c7b299;
+                }
+
+                .main .latest .latest-content .latest-content-card .latest-content-card-add_img4 > svg:hover {
+                    fill: #c7b299;
+                }
+
+                .main .latest .latest-content .latest-content-card .latest-content-card-add_img5 > svg:hover {
+                    fill: #c7b299;
+                }
+
+                .main .latest .latest-content .latest-content-card .latest-content-card-add_img6 > svg:hover {
+                    fill: #c7b299;
+                }
+
+            .main .latest .latest-content .latest-content-card .latest-content-card-text {
                 background-color: fbfaf8;
                 padding-top: 30px;
             }
 
-            .main .latest .latest-content .latest-content-card > div .latest-content-card-name {
+            .main .latest .latest-content .latest-content-card .latest-content-card-text .latest-content-card-text-name {
                 font-family: Raleway;
                 color: #c7b29a;
                 font-size: 20px;
@@ -385,7 +506,7 @@ body {
                 display: block;
             }
 
-            .main .latest .latest-content .latest-content-card > div .latest-content-card-description {
+            .main .latest .latest-content .latest-content-card .latest-content-card-text .latest-content-card-text-description {
                 font-family: Montserrat;
                 color: #d1d1d1;
                 font-size: 14px;
@@ -395,6 +516,19 @@ body {
                 display: block;
                 padding-bottom: 27px;
             }
+
+                .main .latest .latest-content-card:hover .latest-content-card-text {
+                    background-color: #362f2d;
+                }
+
+                    .main .latest .latest-content-card:hover .latest-content-card-text .latest-content-card-text-name {
+                        color: #ffffff;
+                    }
+
+                    .main .latest .latest-content-card:hover .latest-content-card-text.latest-content-card-text-description {
+                        color: #c7b299;
+                    }
+
 
         .main .latest .latest-buttom {
             display: block;
@@ -455,9 +589,7 @@ body {
         }
 
 
-
     .main .mobile {
-        min-height: 695px;
         background-color: #fbfaf8;
         display: flex;
         justify-content: space-between;
@@ -472,58 +604,207 @@ body {
             margin-top: 116px;
         }
 
-        .main .mobile > div > span {
-            font-family: Raleway;
-            color: #555555;
-            font-size: 30px;
-            font-weight: 600;
-            display: block;
-            margin-bottom: 40px;
-        }
+            .main .mobile > div > span {
+                font-family: Raleway;
+                color: #555555;
+                font-size: 30px;
+                font-weight: 600;
+                display: block;
+                margin-bottom: 40px;
+            }
 
-        .main .mobile > div > p {
-            font-family: Montserrat;
-            color: #8c8c8c;
-            font-size: 16px;
-            font-weight: 300;
-            line-height: 28px;
-            margin: 0 0 45px 0;
-        }
+            .main .mobile > div > p {
+                font-family: Montserrat;
+                color: #8c8c8c;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 28px;
+                margin: 0 0 45px 0;
+            }
 
-        .main .mobile > div > ul {
-            margin: 0;
-            font-family: Montserrat;
-            color: #8c8c8c;
-            font-size: 16px;
-            font-weight: 300;
-            line-height: 32px;
-            list-style-type: none;
-            margin-left: 50px;
-            padding: 0;
-        }
+            .main .mobile > div > ul {
+                margin: 0;
+                font-family: Montserrat;
+                color: #8c8c8c;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 32px;
+                list-style-type: none;
+                margin-left: 50px;
+                padding: 0;
+            }
 
-        .main .mobile > div > ul > li:before {
-            content: " ";
-            background: url("../img/mobile-ul.png");
-            width: 21px;
-            height: 21px;
-            display: inline-block;
-            margin-right: 29px;
-        }
+                .main .mobile > div > ul > li:before {
+                    content: " ";
+                    background: url("../img/mobile-ul.png");
+                    width: 21px;
+                    height: 21px;
+                    display: inline-block;
+                    margin-right: 29px;
+                    position: relative;
+                    top: 6px;
+                }
+
 
 .main .numbers {
-    min-height: 300px;
     background: -webkit-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
     background: -moz-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
     background: -o-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
     background: -ms-linear-gradient(0deg, #211b19 0%, #4e3427 100%);
     background: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
-}
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .main .numbers > div {
+        margin: 69px 0 60px 0;        
+    }
+
+    .main .numbers > div:first-child {
+        margin-left: 496px;
+    }
+
+    .main .numbers > div:last-child {
+        margin-right: 504px;
+    }   
+
+        .main .numbers > div .numbers-icon {
+            fill: #c7b299;
+            display: block;
+            margin: 0 auto 30px auto;
+        }
+
+        .main .numbers > div > span {
+            font-family: Montserrat;
+            color: #ffffff;
+            font-size: 48px;
+            font-weight: 200;
+            line-height: 36px;
+            display: block;
+            text-align: center;
+            margin-bottom: 21px;
+        }
+
+        .main .numbers > div > p {
+            font-family: Montserrat;
+            color: #c7b299;
+            font-size: 14px;
+            font-weight: 300;
+            text-transform: uppercase;
+            margin: 0 0 20px 0;
+            text-align: center;
+        }
+
+        .main .numbers > div > hr {
+            background-color: #ffffff;
+            width: 30px;
+            size: 2px;
+        }
+
 
 .main .recent {
-    min-height: 600px;
     background-color: #ffffff;
+    padding-top: 82px;
 }
+
+    .main .recent > span {
+        font-family: Raleway;
+        color: #555555;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 30px;
+        display: block;
+    }
+
+    .main .recent > p {
+        font-family: Montserrat;
+        color: #8c8c8c;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+        text-align: center;
+        margin: 0 auto 40px auto;
+        max-width: 757px;
+    }
+
+    .main .recent > div {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 374px 0 376px;
+        padding-bottom: 40px;
+    }
+
+        .main .recent > div > div {
+            background-color: #ffffff;
+            border: 1px solid #f8f8f8;
+        }
+
+            .main .recent > div > div > img {
+                display: block;
+                margin-bottom: 30px;
+            }
+
+            .main .recent > div > div > span {
+                font-family: Raleway;
+                color: #555555;
+                font-size: 20px;
+                font-weight: 500;
+                margin: 0 0 19px 20px;
+                display: block;
+            }
+
+            .main .recent > div > div > p {
+                font-family: Montserrat;
+                color: #8c8c8c;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 22px;
+                margin: 0 0 27px 20px;
+                max-width: 297px;
+            }
+
+            .main .recent > div > div .read-m {
+                font-family: Montserrat;
+                color: #c7b299;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 20px;
+                margin: 0 0 28px 20px;
+                cursor: pointer;
+            }
+
+                .main .recent > div > div .read-m::after {
+                    content: " ";
+                    background: url("../img/posts-arrow.png");
+                    display: inline-block;
+                    width: 5px;
+                    height: 8px;
+                    margin-left: 9px;
+                    cursor: pointer;
+                }
+
+    .main .recent .recent-arrow {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 80px;
+    }
+
+        .main .recent .recent-arrow .recent-arrow-normal {
+            display: block;
+            fill: #d1d1d1;
+            margin-right: 8px;
+            cursor: pointer;
+        }
+
+            .main .recent .recent-arrow .recent-arrow-normal:last-child {
+                margin: 0;
+            }
+
+            .main .recent .recent-arrow .recent-arrow-normal:hover {
+                fill: #c7b299;
+            }
+
 
 .main .emblems {
     background-image: url(../img/emblems.png);
