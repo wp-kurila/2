@@ -784,6 +784,18 @@ body {
                     cursor: pointer;
                 }
 
+                .main .recent > div > div:hover {
+                    background-color: #362f2d;   
+                }
+
+                    .main .recent > div > div:hover > span {
+                        color: #c7b299;
+                    }
+
+                    .main .recent > div > div:hover > p {
+                        color: #ffffff;
+                    }
+
     .main .recent .recent-arrow {
         display: flex;
         justify-content: center;
@@ -806,17 +818,307 @@ body {
             }
 
 
-.main .emblems {
-    background-image: url(../img/emblems.png);
-    min-height: 489px
-}
+    .main .emblems {
+        background-image: url(../img/emblems.png);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 140px;
+    }
 
-.main .footer {
-    min-height: 508px;
-    background-color: #191919;
-}
+        .main .emblems > img {
+            margin-bottom: 139px;
+        }
 
-.main .footer-bottom {
-    min-height: 111px;
-    background-color: #111111;
-}
+            .main .emblems > img:first-child {
+                margin-left: 406px;
+            }
+
+            .main .emblems > img:last-child {
+                margin-right: 404px;
+            }
+
+    .main .footer {
+        background-color: #191919;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+        .main .footer .footer-logo {
+            margin: 80px 42px 0 376px;
+        }
+
+            .main .footer .footer-logo > a {
+                display: flex;
+                align-items: center;
+                margin-bottom: 29px;
+                text-decoration: none;
+            }
+
+                .main .footer .footer-logo > a > svg {
+                    fill: #ffffff;
+                    margin-right: 2px;
+                }
+
+                .main .footer .footer-logo > a > span {
+                    font-family: Raleway;
+                    color: #ffffff;
+                    font-size: 34px;
+                    font-weight: 400;
+                }
+
+            .main .footer .footer-logo > p {
+                margin: 0 0 33px 0;
+                font-family: Montserrat;
+                color: #545454;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 24px;
+                width: 258px;
+            }
+
+                .main .footer .footer-logo > p:hover {
+                    color: #c7b299;
+                }
+
+            .main .footer .footer-logo .footer-logo-read-m {
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                cursor: pointer;
+            }
+
+                .main .footer .footer-logo .footer-logo-read-m > span {
+                    font-family: Montserrar;
+                    color: #d1d1d1;
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-right: 10px;
+                }
+
+                .main .footer .footer-logo .footer-logo-read-m > svg {
+                    fill: #d1d1d1;
+                }
+
+                    .main .footer .footer-logo .footer-logo-read-m:hover > span {
+                        color: #c7b299;
+                    }
+
+                    .main .footer .footer-logo .footer-logo-read-m:hover > svg {
+                        fill: #c7b299;
+                    }
+
+        .main .footer .footer-posts {
+            margin: 100px 30px 81px 0;
+        }
+
+            .main .footer .footer-posts > span {
+                font-family: Raleway;
+                color: #ffffff;
+                font-size: 24px;
+                font-weight: 700;
+                margin-bottom: 33px;
+                display: block;
+            }
+
+            .main .footer .footer-posts > div {
+
+            }
+
+                .main .footer .footer-posts > div > time {
+                    font-family: Montserrat;
+                    color: #363636;
+                    font-size: 12px;
+                    font-weight: 300;
+                    margin-bottom: 10px;   
+                    display: block;    
+                }
+
+                .main .footer .footer-posts > div > p {
+                    font-family: Montserrat;
+                    color: #545454;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 20px;
+                    margin: 0 0 21px 0;
+                }
+
+                    .main .footer .footer-posts > div:last-child > p {
+                        margin: 0;
+                    }
+
+                .main .footer .footer-posts > div > hr {
+                    color: #252525;
+                    border: 0;
+                    width: 270px;
+                    height: 2px;
+                    margin: 0 0 19px 0;
+                }
+
+                    .main .footer .footer-posts > div:last-child > hr {
+                        margin: 0;
+                    }
+
+                .main .footer .footer-posts > div:hover > time {
+                    color: #ffffff;
+                }
+
+                .main .footer .footer-posts > div:hover > p {
+                    color: #c7b299;
+                }
+
+        .main .footer .footer-twitter {
+            margin: 100px 33px 0 0;
+        }
+
+            .main .footer .footer-twitter > span {
+                font-family: Raleway;
+                color: #ffffff;
+                font-size: 24px;
+                font-weight: 700;
+                margin-bottom: 30px;
+                display: block; 
+            }
+
+            .main .footer .footer-twitter > div {
+
+            }
+
+                .main .footer .footer-twitter > div > p {
+                    font-family: Montserrat;
+                    color: #545454;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 20px;
+                    margin: 0 0 11px 0;
+                }
+
+                    .main .footer .footer-twitter > div > p .footer-twitter-blue {
+                        font-family: Montserrat;
+                        color: #00bff3;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 20px;
+                        cursor: pointer;
+                    }
+                        
+                    .main .footer .footer-twitter > div > p > span {
+                        font-family: Montserrat;
+                        color: #959595;
+                        font-size: 14px;
+                        font-weight: 300;
+                        cursor: pointer;
+                    }
+
+                .main .footer .footer-twitter > div > time {
+                    font-family: Montserrat;
+                    color: #363636;
+                    font-size: 12px;
+                    font-weight: 300;
+                    display: block;
+                    margin-bottom: 21px;
+                }
+
+                .main .footer .footer-twitter > div > hr {
+                    color: #252525;
+                    border: 0;
+                    width: 270px;
+                    height: 2px;
+                    margin: 0 0 17px 0p;
+                }
+
+                    .main .footer .footer-twitter > div:hover > p {
+                        color: #c7b299;
+                    }
+
+                    .main .footer .footer-twitter > div:hover > time {
+                        color: #ffffff;
+                    }
+
+        .main .footer .footer-widget {
+            margin: 100px 370px 0 0;
+        }
+
+            .main .footer .footer-widget > span {
+                font-family: Raleway;
+                color: #ffffff;
+                font-size: 24px;
+                font-weight: 700;
+                display: block;
+                margin-bottom: 26px;
+            }
+
+            .main .footer .footer-widget > div {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+                .main .footer .footer-widget > div > img:first-child {
+                    margin: 0 10px 10px 0;
+                }
+
+                .main .footer .footer-widget > div > img:nth-child(2) {
+                    margin: 0 0 10px 0;
+                }
+
+                .main .footer .footer-widget > div > img:nth-child(3) {
+                    margin: 0 10px 0 0;
+                }
+
+
+    .main .footer-bottom {
+        background-color: #111111;
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .main .footer-bottom > div {
+            margin: 45px 0 52px 0;
+        }
+
+            .main .footer-bottom > div:first-child {
+                margin-left: 376px;
+                cursor: pointer;
+            }
+
+                .main .footer-bottom > div:first-child > span:first-child {
+                    cursor: auto;
+                }
+
+            .main .footer-bottom > div:last-child {
+                margin-right: 374px;
+                cursor: auto;
+            }
+
+            .main .footer-bottom > div > span {
+                font-family: Montserrat;
+                color: #545454;
+                font-size: 14px;
+                font-weight: 300;
+            }
+
+            .main .footer-bottom > div > span:hover{
+                color: #c7b299;
+            }
+
+                .main .footer-bottom > div > span > span {
+                    font-family: Montserrat;
+                    color: #959595;
+                    font-size: 14px;
+                    font-weight: 300;
+                    cursor: pointer;
+                }
+
+            .main .footer-bottom > div .footer-bottom-uppercase {
+                font-family: Montserrat;
+                color: #545454;
+                font-size: 14px;
+                font-weight: 300;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+
+                .main .footer-bottom > div .footer-bottom-uppercase:hover {
+                    color: #c7b299;
+                }
